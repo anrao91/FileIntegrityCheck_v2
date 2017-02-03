@@ -1,0 +1,5 @@
+#!/bin/sh
+
+scp -r user@server:~/Code/* ~/tmp
+cp ~/tmp/md5sum.txt ~/Code/md5sum.txt
+cd ~/Code
